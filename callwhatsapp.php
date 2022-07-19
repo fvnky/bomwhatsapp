@@ -12,7 +12,7 @@ function send($phone){
                 echo $asw."\n";
 }
 echo "COPYRIGHT ; SGBTEAM\n\n";
-echo "Nomor\nInput : ";
+echo "kontol : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
